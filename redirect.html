@@ -11,23 +11,35 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      font-family: sans-serif;
-      background-color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
       text-align: center;
       padding: 1rem;
     }
+
     img {
       max-width: 300px;
-      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 24px;
     }
+
     h1 {
-      font-size: 1.5rem;
-      color: #333;
+      font-size: 2rem;
       margin-bottom: 0.5rem;
     }
-    p {
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact {
       font-size: 1rem;
-      color: #666;
+      font-weight: bold;
+      color: #0077cc;
     }
   </style>
 </head>
@@ -35,13 +47,13 @@
 
   <img src="https://github.com/palsssson/qr/blob/main/bilden.png?raw=true" alt="Fotoautomat">
 
-  <h1>Visst är det kul med fotoautomat?</h1>
-  <p>Kanske något för din nästa fest?</p>
-  <p>Prata med Marcus</p>
+  <h1>📸 Fotoautomat</h1>
+  <p class="subtitle">Kanske något för din nästa fest?</p>
+  <p class="contact">Prata med Marcus</p>
 
   <script>
     setTimeout(function() {
-      window.location.href = "https://drive.google.com/drive/folders/DIN_DRIVE_LÄNK_HÄR";
+      window.location.href = "https://drive.google.com/drive/folders/1opuvZU559sdB5QB2y_pZB8EMcpFXFNSo?usp=drive_link";
     }, 3000);
   </script>
 
