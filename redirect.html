@@ -2,30 +2,49 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>Vänta...</title>
+  <title>Fotoautomat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       font-family: sans-serif;
-      background-color: #f0f0f0;
+      background-color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    img {
+      max-width: 300px;
+      margin-bottom: 20px;
     }
     h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #333;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Du omdirigeras, vänta ett ögonblick...</h1>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Photo_Booth_2.jpg" alt="Fotoautomat">
+
+  <h1>Bilder laddas...</h1>
+  <p>Visst är det kul med fotoautomat?</p>
+  <p>Kanske något för din nästa fest?</p>
+  <p>Prata med Marcus</p>
 
   <script>
     setTimeout(function() {
-      window.location.href = "https://drive.google.com/drive/folders/1opuvZU559sdB5QB2y_pZB8EMcpFXFNSo?usp=drive_link";
+      window.location.href = "https://drive.google.com/drive/folders/DIN_DRIVE_LÄNK_HÄR";
     }, 3000);
   </script>
+
 </body>
 </html>
